@@ -113,10 +113,10 @@ export default function PdfLayout({
   return (
     <section className="relative min-h-screen">
       <div className="flex flex-col md:flex-row items-center no-scrollbar">
-        <div className="w-full px-8 md:w-1/2">
+        <div className="w-full px-8">
           {userEmail ? (
             <>
-              <div className="mt-4 flex justify-center">
+              <div className="mt-10 flex justify-center">
                 <UploadDialog
                   fileUrl={fileUrl}
                   fileName={fileName}
@@ -136,9 +136,9 @@ export default function PdfLayout({
             <Login />
           )}
         </div>
-        <div className="w-full md:w-1/2 no-scrollbar">
+        {/* <div className="w-full md:w-1/2 no-scrollbar">
           <PdfAppInfo />
-        </div>
+        </div> */}
       </div>
     </section>
   );

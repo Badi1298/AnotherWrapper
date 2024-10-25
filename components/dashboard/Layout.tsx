@@ -86,11 +86,11 @@ async function MainContent({
     <Container>
       {showGreeting && (
         <>
-          <span className="text-4xl">👋🏼</span>
-          <Heading className="font-black">
+          <p className="text-4xl text-center">👋🏼</p>
+          <Heading className="font-black text-center">
             {user ? `Hi ${user.email}!` : "Hi there!"}
           </Heading>
-          <Paragraph className="max-w-xl mt-4">
+          <Paragraph className="mt-4 text-center">
             Hope you're having a great day! You can try out the app below.
             {credits !== undefined && (
               <Highlight> You still have {credits} credits left.</Highlight>

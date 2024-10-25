@@ -11,7 +11,7 @@ export default function Home() {
         companyConfig={companyConfig.company!}
         navbarConfig={companyConfig.navbarLanding!}
       />
-      <HeroDemos />
+      {/* <HeroDemos /> */}
       <Apps />
       <Footer
         companyConfig={companyConfig.company!}

@@ -4,14 +4,14 @@ export const companyConfig = {
   company: {
     name: "AnotherWrapper",
     theme: "anotherwrapper",
-    homeUrl: "https://anotherwrapper.com",
+    homeUrl: "/",
     appUrl: "/",
     description: "Build your AI startup in hours using our demo apps!",
     logo: "/logo.png",
     navbarLinks: [
-      { label: "Home", href: "https://anotherwrapper.com" },
-      { label: "Other apps", href: "https://anotherwrapper.com" },
-      { label: "Blog", href: "/blog" },
+      // { label: "Home", href: "https://anotherwrapper.com" },
+      // { label: "Other apps", href: "https://anotherwrapper.com" },
+      // { label: "Blog", href: "/blog" },
     ],
   },
 
